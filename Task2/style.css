@@ -1,0 +1,61 @@
+*{
+    font-family: sans-serif, 'Times New Roman', Times;
+    padding: 0;
+    margin: 0;
+}
+.table1{
+    border-collapse: collapse;
+    margin:  25px 0;
+    font-size: 1em;
+    min-width: 500px;
+    border-radius: 5px 5px 0 0 ;
+    overflow: hidden;
+}
+
+.table1 th{
+background-color: green;
+color: #ffffff;
+text-align: left;
+font-weight: bold;
+}
+
+.table1 th,
+.table1 td{
+padding: 9px ;
+}
+
+.table1 tr {
+    border: 1px solid black;
+}
+
+.container{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    height: 100%;
+    padding: 20px 40px;
+}
+
+.feild{
+    padding: 0.2rem 0.5rem;
+    outline: none;
+    border: 2px solid rgba(0, 0, 0 0);
+    background-color: rgba(230, 230, 230, 0.6);
+    font-size: 1.1rem;
+    margin-bottom: 22px;
+    margin-left: 5px;
+    transition: .3s;
+    width: 60%;
+}
+
+.btn
+{
+    width: 62%;
+    padding: 0.6rem;
+    font-size: 1rem;
+    background-color: seagreen;
+    outline: none;
+    border: none;
+}
+
